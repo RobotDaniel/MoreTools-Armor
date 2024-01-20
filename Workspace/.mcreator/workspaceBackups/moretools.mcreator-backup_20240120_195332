@@ -21,7 +21,6 @@
     {
       "name": "Amthyst",
       "type": "armor",
-      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst",
@@ -86,31 +85,16 @@
           "src/main/resources/data/moretools/recipes/amyboots.json"
         ]
       }
-    },
-    {
-      "name": "AmethystPickaxe",
-      "type": "tool",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "amethyst_pickaxe",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/moretools/item/AmethystPickaxeItem.java",
-          "src/main/resources/assets/moretools/models/item/amethyst_pickaxe.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.moretools.amethyst_leggings": "Amethyst Leggings",
-      "item.moretools.amethyst_boots": "Amethyst Boots",
-      "item.moretools.amethyst_helmet": "Amethyst Helmet",
-      "item.moretools.amethyst_chestplate": "Amethyst Chestplate",
-      "item.moretools.amethyst_pickaxe": "Amethyst Pickaxe"
+      "item.moretools.amethyst_leggings": "Amthyst Leggings",
+      "item.moretools.amethyst_boots": "Amthyst Boots",
+      "item.moretools.amethyst_helmet": "Amthyst Helmet",
+      "item.moretools.amethyst_chestplate": "Amthyst Chestplate"
     }
   },
   "foldersRoot": {
