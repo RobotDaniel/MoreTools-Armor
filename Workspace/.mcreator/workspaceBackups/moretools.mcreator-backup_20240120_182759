@@ -26,11 +26,11 @@
       "registry_name": "amethyst",
       "metadata": {
         "files": [
+          "src/main/resources/assets/moretools/models/item/amethyst_boots.json",
           "src/main/resources/assets/moretools/models/item/amethyst_helmet.json",
           "src/main/resources/assets/moretools/models/item/amethyst_chestplate.json",
-          "src/main/java/net/mcreator/moretools/item/AmthystItem.java",
-          "src/main/resources/assets/moretools/models/item/amethyst_boots.json",
-          "src/main/resources/assets/moretools/models/item/amethyst_leggings.json"
+          "src/main/resources/assets/moretools/models/item/amethyst_leggings.json",
+          "src/main/java/net/mcreator/moretools/item/AmthystItem.java"
         ]
       }
     },
@@ -115,7 +115,6 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.18.2",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.moretools",
     "lockBaseModFiles": false
   },
