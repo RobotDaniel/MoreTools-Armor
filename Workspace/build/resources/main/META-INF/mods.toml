@@ -1,13 +1,13 @@
 modLoader="javafml"
 loaderVersion="[40,)"
-license="Academic Free License v3.0"
+license="GNU Lesser General Public License version 3 (LGPLv3)"
 
 [[mods]]
 modId="moretools"
 version="1.0.0"
 displayName="moreTools"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
+displayURL="https://modrinth.com/mod/moretools+armor"
 authors="daniel, MCreator"
 
 [[dependencies.moretools]]
