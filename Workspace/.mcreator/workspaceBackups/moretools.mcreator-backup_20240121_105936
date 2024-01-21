@@ -100,20 +100,6 @@
           "src/main/resources/assets/moretools/models/item/amethyst_pickaxe.json"
         ]
       }
-    },
-    {
-      "name": "AmethystAxe",
-      "type": "tool",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "amethyst_axe",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/moretools/models/item/amethyst_axe.json",
-          "src/main/java/net/mcreator/moretools/item/AmethystAxeItem.java"
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -121,7 +107,6 @@
   "language_map": {
     "en_us": {
       "item.moretools.amethyst_leggings": "Amethyst Leggings",
-      "item.moretools.amethyst_axe": "Amethyst Axe",
       "item.moretools.amethyst_boots": "Amethyst Boots",
       "item.moretools.amethyst_helmet": "Amethyst Helmet",
       "item.moretools.amethyst_chestplate": "Amethyst Chestplate",
