@@ -1,0 +1,208 @@
+{
+  "mod_elements": [
+    {
+      "name": "AmthystHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amthyst_helmet_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/moretools/procedures/AmthystHelmetTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Amthyst",
+      "type": "armor",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/moretools/models/item/amethyst_helmet.json",
+          "src/main/resources/assets/moretools/models/item/amethyst_chestplate.json",
+          "src/main/java/net/mcreator/moretools/item/AmthystItem.java",
+          "src/main/resources/assets/moretools/models/item/amethyst_boots.json",
+          "src/main/resources/assets/moretools/models/item/amethyst_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "Amyhelmet",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amyhelmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/moretools/recipes/amethyst_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "AmythystCHEST",
+      "type": "recipe",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amythyst_chest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/moretools/recipes/amythyst_chest.json"
+        ]
+      }
+    },
+    {
+      "name": "Amyleggings",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amyleggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/moretools/recipes/amyleggings.json"
+        ]
+      }
+    },
+    {
+      "name": "Amyboots",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amyboots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/moretools/recipes/amyboots.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystPickaxe",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/moretools/item/AmethystPickaxeItem.java",
+          "src/main/resources/assets/moretools/models/item/amethyst_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystAxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/moretools/models/item/amethyst_axe.json",
+          "src/main/java/net/mcreator/moretools/item/AmethystAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AmethystPickaxeBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_pickaxe_block_destroyed_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/moretools/procedures/AmethystPickaxeBlockDestroyedWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmethystAxeLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_axe_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/moretools/procedures/AmethystAxeLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmethystSword",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/moretools/item/AmethystSwordItem.java",
+          "src/main/resources/assets/moretools/models/item/amethyst_sword.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.moretools.amethyst_sword": "Amethyst Sword",
+      "item.moretools.amethyst_leggings": "Amethyst Leggings",
+      "item.moretools.amethyst_axe": "Amethyst Axe",
+      "item.moretools.amethyst_boots": "Amethyst Boots",
+      "item.moretools.amethyst_helmet": "Amethyst Helmet",
+      "item.moretools.amethyst_chestplate": "Amethyst Chestplate",
+      "item.moretools.amethyst_pickaxe": "Amethyst Pickaxe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "moretools",
+    "modName": "moreTools",
+    "version": "1.0.0",
+    "author": "daniel, MCreator",
+    "websiteURL": "https://modrinth.com/mod/moretools+armor",
+    "license": "GNU Lesser General Public License version 3 (LGPLv3)",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.moretools",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

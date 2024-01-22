@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.item.Item;
 
 import net.mcreator.moretools.item.AmthystItem;
+import net.mcreator.moretools.item.AmethystSwordItem;
 import net.mcreator.moretools.item.AmethystPickaxeItem;
 import net.mcreator.moretools.item.AmethystAxeItem;
 import net.mcreator.moretools.MoretoolsMod;
@@ -23,4 +24,5 @@ public class MoretoolsModItems {
 	public static final RegistryObject<Item> AMETHYST_LEGGINGS = REGISTRY.register("amethyst_leggings", () -> new AmthystItem.Leggings());
 	public static final RegistryObject<Item> AMETHYST_BOOTS = REGISTRY.register("amethyst_boots", () -> new AmthystItem.Boots());
 	public static final RegistryObject<Item> AMETHYST_AXE = REGISTRY.register("amethyst_axe", () -> new AmethystAxeItem());
+	public static final RegistryObject<Item> AMETHYST_SWORD = REGISTRY.register("amethyst_sword", () -> new AmethystSwordItem());
 }

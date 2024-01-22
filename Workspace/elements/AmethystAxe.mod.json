@@ -13,9 +13,9 @@
     },
     "harvestLevel": 2,
     "efficiency": 6.5,
-    "attackSpeed": 1.0,
+    "attackSpeed": 0.8,
     "enchantability": 15,
-    "damageVsEntity": 4.0,
+    "damageVsEntity": 9.0,
     "usageCount": 200,
     "blocksAffected": [],
     "hasGlow": false,
@@ -26,6 +26,9 @@
     ],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "AmethystAxeBlockDestroyedWithTool"
+    }
   }
 }

@@ -134,6 +134,25 @@
           }
         ]
       }
+    },
+    {
+      "name": "AmethystAxeLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_axe_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/moretools/procedures/AmethystAxeLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -157,8 +176,8 @@
     "modName": "moreTools",
     "version": "1.0.0",
     "author": "daniel, MCreator",
-    "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "websiteURL": "https://modrinth.com/mod/moretools+armor",
+    "license": "GNU Lesser General Public License version 3 (LGPLv3)",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],

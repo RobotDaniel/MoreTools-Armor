@@ -1,0 +1,7 @@
+{
+  "_fv": 47,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" inline=\"true\" deletable=\"false\" x=\"106\" y=\"6\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"controls_if\"><comment pinned=\"false\" h=\"86\" w=\"233\">This example will test if the entity is holding a specific item. If it is true, then it will give the entity a level 2 status effect of speed for 3 seconds.</comment><value name=\"IF0\"><block type=\"block_is_tagged_in\"><value name=\"a\"><block type=\"world_data_blockat\"><value name=\"x\"><block type=\"coord_x\"></block></value><value name=\"y\"><block type=\"coord_y\"></block></value><value name=\"z\"><block type=\"coord_z\"></block></value></block></value><value name=\"b\"><block type=\"text\"><field name=\"TEXT\">minecraft:logs</field></block></value></block></value><statement name=\"DO0\"><block type=\"entity_add_potion\"><field name=\"potion\">HASTE</field><value name=\"level\"><block type=\"math_number\"><field name=\"NUM\">2</field></block></value><value name=\"duration\"><block type=\"math_number\"><field name=\"NUM\">60</field></block></value><value name=\"entity\"><block type=\"entity_from_deps\"></block></value></block></statement></block></next></block></xml>"
+  }
+}
